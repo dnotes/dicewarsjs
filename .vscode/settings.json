@@ -1,0 +1,12 @@
+{
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"cucumber.glue": [
+		"**/*.steps.{ts,js,mjs}"
+	],
+	"cucumberautocomplete.steps": [
+		"**/*.steps.{ts,js,mjs}",
+		"**/node_modules/@quickpickle/playwright/**/*.steps.mjs"
+	]
+}
